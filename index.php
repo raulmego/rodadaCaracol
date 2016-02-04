@@ -22,7 +22,7 @@
 	} 
 	$sql = "INSERT INTO reportes (latlng, personas) VALUES ('".$_POST['latlng']."', '".$_POST['personas']."')";
 	if ($conn->query($sql) === TRUE) {
-	    echo '<div class="alert alert-success" role="alert"><strong>Gracias!</strong> Sigue participando #ConTigoSomosMás</div>';
+	    echo '<div class="alert alert-success" role="alert"><strong>Gracias!</strong> Sigue participando #ContigoSomosMas</div>';
 	} else {
 	    echo "Error: " . $sql . "<br>" . $conn->error;
 	}
